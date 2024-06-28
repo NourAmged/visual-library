@@ -31,7 +31,6 @@ function addBookToLibrary() {
 
     const newBook = new Book(title, author, pages, read );
 
-    // const newBook = { title, author, pages, read };
     myLibrary.push(newBook);
     displayBook(newBook);
     document.querySelector("#form").reset();
